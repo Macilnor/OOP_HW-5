@@ -139,7 +139,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Card.cpp" />
+    <ClCompile Include="GenericPlayer.cpp" />
+    <ClCompile Include="Hand.cpp" />
     <ClCompile Include="OOP_HW-5.cpp" />
+    <ClCompile Include="Pair.cpp" />
+    <ClCompile Include="Pair1.cpp" />
+    <ClCompile Include="StringValuePair.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Card.h" />
+    <ClInclude Include="GenericPlayer.h" />
+    <ClInclude Include="Hand.h" />
+    <ClInclude Include="Pair.h" />
+    <ClInclude Include="Pair1.h" />
+    <ClInclude Include="StringValuePair.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
